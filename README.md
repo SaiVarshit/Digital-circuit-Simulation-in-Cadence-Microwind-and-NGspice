@@ -10,6 +10,7 @@ Microwind provides an integrated environment for designing and simulating digita
 ## Cadence
 In this i have used 90nm technolgy files(gdpk90).
 First I have generated a 2:1 MUX circuit using Transmission gates.
+
 Next, using the above instantiation, 8:1 MUX can be generated.
 
 Next, Using Analog Design Environment we can simulate our output.
