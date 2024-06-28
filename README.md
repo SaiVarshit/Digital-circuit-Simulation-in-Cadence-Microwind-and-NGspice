@@ -15,12 +15,14 @@ First I have generated a 2:1 MUX circuit using Transmission gates.
 ![Schematic](https://github.com/SaiVarshit/Digital-circuit-Simulation-in-Cadence-Microwind-and-NGspice/assets/171639583/7f13b88e-c345-42ea-a072-5ebd196e8c7d)
 
 Next, using the above instantiation, 8:1 MUX can be generated.
+![Schematic](https://github.com/SaiVarshit/Digital-circuit-Simulation-in-Cadence-Microwind-and-NGspice/assets/171639583/7319c9ea-45b1-4ef6-a8a9-81f636c8f834)
 
 Next, Using Analog Design Environment we can simulate our output.
+![Output](https://github.com/SaiVarshit/Digital-circuit-Simulation-in-Cadence-Microwind-and-NGspice/assets/171639583/76371212-c8a8-4017-9ecf-3c670937db28)
 
 ## Microwind 
 
-From Microwind, we obtain post layout simulation.I have generated 8to1 using both nand gates and transmission gates and by comparing Transmission gate circuit uses less area and also generates less delay in the output.
+From Microwind, we obtain post layout simulation.I have generated 8to1 MUX using both nand gates and transmission gates and by comparing Transmission gate circuit uses less area and also generates less delay in the output.
 
 
 ## NGspice
