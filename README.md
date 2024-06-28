@@ -22,4 +22,4 @@ From Microwind, we obtain post layout simulation.I have generated 8to1 using bot
 
 ## NGspice
 For any digital circuit that is mapped in a circuit it is converted into a netlist which is then used for simulations.
-![enter image description here](https://imgur.com/IpVWqBz.png)
+
