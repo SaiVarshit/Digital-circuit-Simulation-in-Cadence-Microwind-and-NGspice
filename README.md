@@ -1,9 +1,9 @@
 # Simulation 
 
-The project mainly deals with design and performance analysis of a simple 8:1 multiplexer circuit. The circuit is simulated in Cadence,Microwind and NGspice softwares.
+The project mainly deals with design and performance analysis of a simple 8:1 multiplexer circuit. The circuit is simulated in Cadence,Microwind and NGspice software's.
 The 8:1 MUX circuit can be generated either using NAND gates or Transmission gates(CMOS).
 
-The Main aim of the project is to get familiar with the below softwares.
+The Main aim of the project is to get familiar with the below software's.
 
 Cadence provides a wide range of tools for various stages of the electronic design automation (EDA) process, from schematic capture to layout and verification. 
 NGspice is an open-source circuit simulator, i.e it is freely available and can be modified as per user requirements or can be integrated into other tools.
@@ -22,7 +22,8 @@ Next, Using Analog Design Environment we can simulate our output.
 
 ## Microwind 
 
-From Microwind, we obtain post layout simulation.I have generated 8to1 MUX using both nand gates and transmission gates and by comparing Transmission gate circuit uses less area and also generates less delay in the output.
+From Microwind, we obtain post layout simulation.I have generated 8to1 MUX using both nand gates and transmission gates by satisfying all the design rules.
+Now, on comparing Transmission gate circuit uses less area and also generates less delay in the output.
 ![Final output with delay](https://github.com/SaiVarshit/Digital-circuit-Simulation-in-Cadence-Microwind-and-NGspice/assets/171639583/19ab8708-7b10-417f-ac39-bdfaf055302c)
 
 ## NGspice
