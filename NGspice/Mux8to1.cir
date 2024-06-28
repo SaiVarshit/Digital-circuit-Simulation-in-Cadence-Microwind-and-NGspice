@@ -1,0 +1,58 @@
+*jk_latch
+.include nand.txt
+.include 3ipnand.txt
+x1 1 9 11 15 nand3
+x2 2 8 11 16 nand3
+x3 3 9 10 17 nand3
+x4 4 8 10 18 nand3
+
+x5 5 9 11 19 nand3
+x6 6 8 11 20 nand3
+x7 7 9 10 21 nand3
+x8 14 8 10 22 nand3
+
+x9 15 16 23 nand
+x10 17 18 24 nand
+x11 19 20 25 nand
+x12 21 22 26 nand
+
+x13 23 23 27 nand
+x14 24 24 28 nand
+x15 25 25 29 nand
+x16 26 26 30 nand
+
+x17 27 28 31 nand
+x18 29 30 32 nand
+
+x19 31 13 33 nand
+x20 32 12 34 nand
+
+x21 33 34 35 nand
+
+x22 8 8 9 nand
+x23 10 10 11 nand
+x24 12 12 13 nand
+
+va 1 0 PULSE(0 1 0 0.1m 0.1m 5m 5m 10m)
+vb 2 0 PULSE(0 1 0 0.1m 0.1m 10m 10m 20m)
+vc 3 0 PULSE(0 1 0 0.1m 0.1m 5m 15m 30m)
+vd 4 0 PULSE(0 1 0 0.1m 0.1m 5m 20m 40m)
+ve 5 0 PULSE(0 1 0 0.1m 0.1m 10m 25m 50m)
+vf 6 0 PULSE(0 1 0 0.1m 0.1m 5m 30m 60m)
+vg 7 0 PULSE(0 1 0 0.1m 0.1m 10m 35m 70m)
+vh 14 0 PULSE(0 1 0 0.1m 0.1m 5m 40m 80m)
+
+vi 8 0 PULSE(0 1 0 0.1m 0.1m 5m 15m 30m)
+vj 10 0 PULSE(0 1 0 0.1m 0.1m 5m 20m 40m)
+vk 12 0 PULSE(0 1 0 0.1m 0.1m 10m 25m 50m)
+
+.tran 0.01m 4m
+.control
+run
+
+plot v(1) v(2)+1 v(3)+2 V(4)+3 V(5)+4 v(6)+5 v(7)+6 V(14)+7 V(8)+8 v(10)+9 v(12)+10 v(35)+11
+set color0=black
+set xbrushwidth=4
+
+.endc
+.end
