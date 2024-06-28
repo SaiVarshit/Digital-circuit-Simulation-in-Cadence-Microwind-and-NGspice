@@ -28,4 +28,4 @@ From Microwind, we obtain post layout simulation.I have generated 8to1 MUX using
 ## NGspice
 For any digital circuit that is mapped in a circuit it is converted into a netlist which is then used for simulations.
 ![Circuit Diagram](https://github.com/SaiVarshit/Digital-circuit-Simulation-in-Cadence-Microwind-and-NGspice/assets/171639583/074a00eb-ad74-45fa-8041-2124fc0a4291)
-
+![Vout](https://github.com/SaiVarshit/Digital-circuit-Simulation-in-Cadence-Microwind-and-NGspice/assets/171639583/4388808a-2fb6-4f19-8f8f-fa0a39894653)
